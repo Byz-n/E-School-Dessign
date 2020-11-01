@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	flex: 0 0 auto;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+p{}
+h2{
+    font-size: 59px;
+    line-height: 1;
+    margin: 20px 0px;
+}
+h3{}
+.pad-y{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+
+/************header section ************/
+
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    
+}
+.col-3{
+	width: 33.33%;
+	padding: 15px;}
+.col-4{
+    width: 25%;
+    padding: 15px;
+}
+h1{
+    font-size: 59px;
+    line-height: 1;
+    margin: 20px 0px;
+}
+h1 span{
+    color: #21B573 !important;
+    font-size: 55px !important;
+    letter-spacing: 1px !important;
+}
+p{
+    font-size: 22px;
+    line-height: 1.4;
+    color: #39393B;
+    margin-bottom: 10px;
+}
+
+.banner-section{
+    background: #F0FFF0;
+    
+}
+header{
+    padding: 20px 0px;
+}
+.logo{
+    width: 15%;
+    padding: 15px;
+}
+.logo a{}
+.logo a img{}
+
+nav{
+    width: 85%;
+    padding: 15px;
+}
+nav ul{
+    
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #39393B;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: block;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+nav ul li a:hover{
+	background-color: #21B573;
+	color: #fff;
+}
+/************header section ************/
+
+/*************** banner-section***********/
+.banner-content{
+    width: 45%;
+    padding: 15px;
+}
+.banner-content span{
+    color: #F89F7A;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+ 
+.btn{
+    color: #f4f4fb;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #21B573;
+    border-radius: 30px;
+    display: inline-block;
+    transition-duration: 0.3s;
+}
+.btn:hover{
+    background-color: #21B573;
+    color: #fff;
+}
+
+.banner-img{
+    width: 55%;
+    padding: 15px 50px;
+}
+.banner-img img{}
+/*************** banner-section***********/
+
+/***********feature-section************/
+.feature-section{
+    padding: 50px 0px;
+}
+.feature{
+    background: #F0FFF0;
+    text-align: center;
+    padding: 45px 30px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.feature img{
+    height: 80px;
+}
+.feature h3{
+    font-size: 20px;
+    color: #5B5E5C;
+    margin: 5px 0;
+}
+.feature p{
+    margin: 0px;
+    font-size: 16px;
+}
+.feature:hover{
+    box-shadow: 0px 10px 40px 0px #00000012;
+    background: #fff;
+}
+/***********feature-section************/
+
+
+/**************course-section***********/
+.course-section{}
+.course{
+    box-shadow: 0px 10px 40px 0px #00000012;
+    border-radius: 15px;
+    padding: 15px;
+}
+.course img{}
+.course h3{
+    font-size: 20px;
+    color: #5B5E5C;
+    margin: 5px 0;
+}
+.course span{
+    color: #312b52;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+.course ul{
+    justify-content: space-between;
+}
+.course ul li{
+    color: #312b52;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.course ul li i{}
+/**************course-section***********/
+
+/*********** Testimonial-section**********/
+.testimonial-section{
+    padding: 50px 0;
+}
+.testimonial-section .flex{
+	justify-content: center;
+	align-items: center;
+}
+.client-img{
+    width: 12%;
+    padding: 15px;
+}
+.client-img img{}
+.client-content{
+    width: 50%;
+    padding: 15px;
+}
+.client-content p{
+    font-size: 17px;
+    line-height: 1.6;
+}
+/*********** Testimonial-section**********/
+
+/*************footer ************/
+footer{
+    background: #39393B;
+    padding-top: 50px;
+}
+footer ul{}
+footer ul li{}
+footer ul li strong{
+    color: #fff;
+    font-size: 22px;
+}
+footer ul li a{
+    color: #fff;
+    font-size: 16px;
+    padding: 3px 0px;
+    display: block;
+}
+footer ul li a:hover{}
+footer p{
+    font-size: 16px;
+    color: #fff;
+}
+.copyright{
+    padding: 30px 0px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.copyright a{
+    color: #21B573;
+    font-size: 17px;
+    font-weight: 600;
+}
+.copyright a:hover{
+    color: #F7B1A2;
+}
